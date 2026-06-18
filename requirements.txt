@@ -2,3 +2,5 @@ pandas
 scikit-learn
 streamlit
 numpy
+plotly>=5.17.0
+matplotlib>=3.7.0

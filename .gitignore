@@ -1,0 +1,7 @@
+# Ignore specific folders
+/_obs/
+/original_files_ fr_instructor/
+/venv/
+
+# Ignore all .csv files
+*.csv
