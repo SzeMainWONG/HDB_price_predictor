@@ -89,7 +89,7 @@ numeric_features = [
     'floor_area_sqm',
     'floor_level',
     'remaining_lease_years',
-    'flat_age',
+    'flat_age', # this highly correlates with remaining_lease_years, should remove
     'month_num'  # Key feature for time trend
 ]
 
@@ -277,7 +277,7 @@ for town in towns[:10]:  # Limit to first 10 towns for demo
         'flat_model': ['New Generation'] * 6,
         'floor_area_sqm': [90] * 6,
         'storey_range': ['10 TO 12'] * 6,
-        'lease_commence_date': [1980] * 6,
+        'lease_commence_date': [1980] * 6, #correlated with remaining_lease
         'remaining_lease': ['61 years 06 months'] * 6,
         'block': [''] * 6,
         'street_name': [''] * 6
