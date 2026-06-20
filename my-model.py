@@ -15,7 +15,9 @@ warnings.filterwarnings('ignore')
 # 1. LOAD DATA
 # ============================================
 
-url = "https://raw.githubusercontent.com/kohjiaxuan/Predicting-HDB-Price-with-Machine-Learning/master/resale-flat-prices-based-on-registration-date-from-jan-2017-onwards.csv"
+#url = "https://raw.githubusercontent.com/kohjiaxuan/Predicting-HDB-Price-with-Machine-Learning/master/resale-flat-prices-based-on-registration-date-from-jan-2017-onwards.csv"
+#url = "https://raw.githubusercontent.com/SzeMainWONG/datasets/main/dataset/hdb_resale_prices.csv"
+url = "https://media.githubusercontent.com/media/SzeMainWONG/datasets/main/dataset/hdb_resale_prices.csv"
 data = pd.read_csv(url)
 
 print(f"📥 Loaded {len(data):,} records")
