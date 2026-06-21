@@ -4,12 +4,12 @@ Run everything with terminal shell:
 
 > ./run.sh
 
-OR: Streamlit run my-app.py directly. Pickle file of model is already generated as 'house_model_extrapolated.csv'.
+OR: Streamlit run my-app.py directly. Pickle file of model is already generated as 'house_model_extrapolate.pkl'.
 
 > streamlit run my-app.py
 
 OR: Open the deployed streamlit app online Community:
-[Streamlit deployed app hdb_price_predictor ∙ main ∙ my-app.py](https://hdb-future-price-predictor-dataset2017to19.streamlit.app/)
+[Streamlit deployed app 'hdb_price_predictor ∙ main ∙ my-app.py'](https://hdb-future-price-predictor-dataset2017to19.streamlit.app/)
 
 # 2. On my-model-final.py and my-app-final.py
 Run everything with terminal shell:
@@ -22,7 +22,8 @@ OR: Streamlit run my-app-final.py directly. Pickle file of model is already gene
 > streamlit run my-app-final.py
 
 OR: Open the deployed streamlit app online Community:
-[Streamlit deployed app ]()
+[Streamlit deployed app '
+hdb_price_predictor ∙ main ∙ my-app-final.py'](https://hdbpricepredictor-linear-reg.streamlit.app/)
 
 ```
 numerical_features = ['storey_mid', 'flat_age']  # floor_area_sqm removed
