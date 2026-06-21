@@ -1,0 +1,6 @@
+numerical_features: ['storey_mid', 'flat_age']
+categorical_features: ['town', 'flat_category']
+total_features: 69
+model_type: Linear Regression
+
+Feature names: ['storey_mid', 'flat_age', 'town_BEDOK', 'town_BISHAN', 'town_BUKIT BATOK', 'town_BUKIT MERAH', 'town_BUKIT PANJANG', 'town_BUKIT TIMAH', 'town_CENTRAL AREA', 'town_CHOA CHU KANG']... (showing first 10)
