@@ -1,0 +1,5 @@
+- do statistical analysis of the columns/features. 
+	distribution mean/median, standard deviation, skew, z-score, outliers
+	mean sale transaction per month/year at town, with confidence interval
+	resale_price, with confidence interval
+- add on heatmap charts the number/count for each box, where relevant.
